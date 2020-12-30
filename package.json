@@ -13,9 +13,9 @@
   "author": "Chris Wilson",
   "license": "MIT",
   "dependencies": {
-    "async": "^3.1.0",
-    "debug": "^4.1.1",
-    "jsdom": "^15.1.1",
+    "async": "^3.2.0",
+    "debug": "^4.3.1",
+    "jsdom": "^16.4.0",
     "mathjax-node": "^2.1.1",
     "mathjax-node-page": "github:pkra/mathjax-node-page"
   },
