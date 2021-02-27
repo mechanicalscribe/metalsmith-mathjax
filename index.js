@@ -31,7 +31,7 @@ function plugin(opts) {
                 mjAPI.mjpage(contents, {format: ["TeX"]}, {svg: true}, function(result) {
                     // window.document.body.innerHTML = result.html;
                     // var HTML = "<!DOCTYPE html>\n" + window.document.documentElement.outerHTML.replace(/^(\n|\s)*/, "");
-                    data.contents = new Buffer(result);
+                    data.contents = new Buffer.from(result);
                     debug('Prerendered MathJAX for file: %s', file);
                     done();
                 });
